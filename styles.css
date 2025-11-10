@@ -9,6 +9,7 @@
 
 body {
     background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/subtle_white_feathers.png");
+    font-family: "Lucida Console", Courier, monospace;
     font-size: 16px; 
     padding-top: 60px;
 }
@@ -58,7 +59,8 @@ a.scroll-top {
     position: fixed;
     bottom: 20px;
     left: 10px;
-    font: 600 15px "Lucida Console", Courier, monospace;
+    font-weight: 600;
+    font-size: 15px;
     border: none;
     color: transparent;
     background-color: transparent;
@@ -84,9 +86,10 @@ a.scroll-top:hover {
 .button-4,
 .button-5,
 .button-6 {
-    font: 600 15px "Lucida Console", Courier, monospace;
     border: none;
     color: black;
+    font-weight: 600;
+    font-size: 15px;
     text-decoration: none;
     display: flex inline;
     vertical-align: middle;
